@@ -22,5 +22,11 @@ file (It is recommended to move all files to the same place to keep track of whe
 # How to use it
 
 1st. Connect your android rooted device to your computer with an USB cable
+
 2nd. Run the automatics_log.py file, it should prompt you some questions. (If it crashes, there might be something wrong. Try again to see if it works then)
-3rd. (Optional) Run the screenrecord
+
+3rd. (Optional) Run the screen_recorder.py. This file will run the 'adb shell screnrecord' program, it is now set to 10 videos of 3 minutes each (limit of android studio) and stored in the /sdcard/movies/ folder. If you want to change, just do it in an IDE.
+
+4th. Run your cellular-data-logs collector app. In my case, Mobile Insight.
+
+5th. Once you finished doing everything you needed to, just run the kill_switch.py, press 'k', and wait a few seconds. The files should be all organized inside the main folder.
